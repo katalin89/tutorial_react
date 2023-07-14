@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ComponetaFunctionala from './exercitii/ComponentaFunctionala';
+import ComponentaCuProps from './exercitii/ComponentaCuProps';
+import Titlu from './exercitii/Titlu';
+import Buton from './exercitii/Button';
+import Contor from './exercitii/Contor';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Bun venit in aplicatia React!</h1>
+      <ComponetaFunctionala />
+      <ComponentaCuProps nume="Ion" varsta="20" />
+
+      <Titlu/>
+      
+      <Buton/>
+
+      {/* <Contor/> */}
+      
+
     </div>
   );
 }
