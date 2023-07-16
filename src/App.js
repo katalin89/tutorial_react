@@ -4,6 +4,9 @@ import ComponentaCuProps from './exercitii/ComponentaCuProps';
 import Titlu from './exercitii/Titlu';
 import Buton from './exercitii/Button';
 import Contor from './exercitii/Contor';
+import Aplication from './exercitii/Aplication';
+import Car from './exercitii/Car';
+
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Titlu/>
       
       <Buton/>
+
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(<Car />);
 
       {/* <Contor/> */}
       
